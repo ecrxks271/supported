@@ -7,6 +7,10 @@ local supportedGames = {
         loadstring(game:HttpGet("https://raw.githubusercontent.com/ecrxks271/country/main/steal%20a%20country"))()
     end,
 
+    [132719557512430] = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/ecrxks271/steal-a-morph/main/steal%20a%20morph"))()
+    end,
+
     [114460042966606] = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/ecrxks271/kitty/main/steal%20a%20kitty"))()
     end,
