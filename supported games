@@ -63,6 +63,10 @@ local supportedGames = {
         loadstring(game:HttpGet("https://raw.githubusercontent.com/ecrxks271/cafb/main/main"))()
     end,
 
+    [80234405571477] = function() 
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/ecrxks271/unbox-brainrot/main/unbox%20a%20brainrot"))()
+    end,
+
     [107036885638483] = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/ecrxks271/drill/main/steal%20a%20drill"))()
     end,
