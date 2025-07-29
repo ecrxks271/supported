@@ -1,0 +1,77 @@
+local supportedGames = {
+    [128857408119456] = function() 
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/ecrxks271/merge-labubus/main/merge%20labubus"))()
+    end,
+
+    [107600241411943] = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/ecrxks271/country/main/steal%20a%20country"))()
+    end,
+
+    [138600641674950] = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/ecrxks271/steal-animals/main/steal%20animals"))()
+    end,
+
+    [105492766146737] = function() 
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/ecrxks271/bubble/main/bubble%20gum%20jumping"))()
+    end,
+
+    [2823503928] = function() 
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/ecrxks271/baby/main/baby%20simulator"))()
+    end,
+
+    [137061165621029] = function() 
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/ecrxks271/brainrot-slingshot/main/brainrot%20slingshot"))()
+    end,
+
+    [79105434141915] = function() 
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/ecrxks271/dinosaur/main/dinosaur%20evolution"))()
+    end,
+
+    [136024597942039] = function() 
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/ecrxks271/labubu-escape/main/labubu%20escape%20%2B1%20speed"))()
+    end,
+
+    [126922689754590] = function() 
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/ecrxks271/be-quit/main/be%20quit%20or%20die"))()
+    end,
+
+    [12166287786] = function() 
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/ecrxks271/-1-fat/main/%2B1%20fat%20every%20sec"))()
+    end,
+
+    [124835459779674] = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/ecrxks271/labubu/main/labubu%20speed%20clicker"))()
+    end,
+
+    [139233844569220] = function() 
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/ecrxks271/zoo/main/Zoo_or_off.lua"))()
+    end,
+
+    [71575927487690] = function() 
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/ecrxks271/build/main/build%20your%20brainrot"))()
+    end,
+
+    [131783066284968] = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/ecrxks271/feed/main/Feed%20your%20pet"))()
+    end,
+
+    [126884695634066] = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/ecrxks271/grow/main/grow%20a%20garden"))()
+    end,
+
+    [110931811137535] = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/ecrxks271/cafb/main/main"))()
+    end,
+
+    [107036885638483] = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/ecrxks271/drill/main/steal%20a%20drill"))()
+    end,
+}
+
+local placeId = game.PlaceId
+
+if supportedGames[placeId] then
+    supportedGames[placeId]()
+else
+    game.Players.LocalPlayer:Kick("Not supported")
+end
