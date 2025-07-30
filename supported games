@@ -15,6 +15,10 @@ local supportedGames = {
         loadstring(game:HttpGet("https://raw.githubusercontent.com/ecrxks271/steal-a-sanrio/main/steal%20a%20sanrio"))()
     end,
 
+    [94493476124226] = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/ecrxks271/steal-a-gomble/main/steal%20a%20gomble"))()
+    end,
+
     [114460042966606] = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/ecrxks271/kitty/main/steal%20a%20kitty"))()
     end,
