@@ -11,6 +11,10 @@ local supportedGames = {
         loadstring(game:HttpGet("https://raw.githubusercontent.com/ecrxks271/build-a-tower/main/build%20a%20tower"))()
     end,
 
+    [72212564918217] = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/ecrxks271/steal-a-fish/main/steal%20a%20fish"))()
+    end,
+
     [111770699964440] = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/ecrxks271/dalgona-tycoon/main/dalgona%20tycoon"))()
     end,
