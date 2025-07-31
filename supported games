@@ -7,6 +7,10 @@ local supportedGames = {
         loadstring(game:HttpGet("https://raw.githubusercontent.com/ecrxks271/country/main/steal%20a%20country"))()
     end,
 
+    [121807678075780] = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/ecrxks271/steal-to-be-rich/main/steal%20to%20be%20rich"))()
+    end,
+
     [93215493073492] = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/ecrxks271/steal-a-planet/main/steal%20a%20planet"))()
     end,
