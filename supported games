@@ -11,6 +11,10 @@ local supportedGames = {
         loadstring(game:HttpGet("https://raw.githubusercontent.com/ecrxks271/merge-for-speed/main/merge%20for%20speed"))()
     end,
 
+    [126849358937279] = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/ecrxks271/merge-gubby/main/merge%20gubby"))()
+    end,
+
     [124387865885397] = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/ecrxks271/merge-brainrot/main/merge%20brainrot"))()
     end,
