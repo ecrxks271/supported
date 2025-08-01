@@ -7,6 +7,10 @@ local supportedGames = {
         loadstring(game:HttpGet("https://raw.githubusercontent.com/ecrxks271/country/main/steal%20a%20country"))()
     end,
 
+    [98789889906928] = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/ecrxks271/italien-brainrot-thieves/main/italien%20brainrot%20thieves"))()
+    end,
+
     [118611268319028] = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/ecrxks271/merge-for-speed/main/merge%20for%20speed"))()
     end,
