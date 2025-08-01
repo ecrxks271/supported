@@ -15,6 +15,10 @@ local supportedGames = {
         loadstring(game:HttpGet("https://raw.githubusercontent.com/ecrxks271/italien-brainrot-thieves/main/italien%20brainrot%20thieves"))()
     end,
 
+    [137925884276740] = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/ecrxks271/build-a-plane/main/build%20a%20plane"))()
+    end,
+
     [100668832052032] = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/ecrxks271/labubu-thieves/main/labubu%20thieves"))()
     end,
